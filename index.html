@@ -1,1 +1,60 @@
-<h1 id=title>Tell Me About Music</h1>
+<!DOCTYPE html>
+<html lang="eng">
+
+   <head>
+
+       <link rel="stylesheet" type="text/css" href="css/survey_form.css">
+
+   </head>
+
+   <body>
+
+<h1 id=title>Tell Me About Yourself</h1>
+<p id="description">This is a survey where you can tell us a little about yourself</p>
+  <form id="survey-form">
+    <label id="name-label">Name:</label>
+    <input type="text" name="name" id="name" required placeholder="Enter your name"><br>
+    <label id="email-label">Email:</label>
+    <input type="email" name="name" id="email" required placeholder="Enter your email adress"><br>
+    <label id="number-label">Number:</label>
+    <input type="number" max="10" min="1" name="number" id="number" required placeholder="Enter a Number"><br>
+     <br>
+    <label for="cars">Choose a video game:</label>
+
+      <select name="video game" id="dropdown">
+        <option value="Mario">Mario</option>
+        <option value="Sonic">Sonic</option>
+        <option value="GTA">GTA</option>
+        <option value="Fifa">Fifa</option>
+      </select>
+      <br>
+      <br>
+
+
+  <div id="button-area">
+      <label for="gender-label">Choose a Gender:</label>
+
+        <input type="radio" class="radio-inline" name="gender" value="male"> male  <br>
+        <input type="radio" class="radio-inline" name="gender" value="female"> female  <br>
+        <input type="radio" class="radio-inline" name="gender" value="other"> other
+   </div>
+
+
+  <div id="button-area">
+       <label id="transportation-type-label">Transportation Type:</label>
+       <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+       <label for="vehicle1"> I have a bike</label>
+       <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+       <label for="vehicle2"> I have a car</label>
+       <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+       <label for="vehicle3"> I have a boat</label>
+    </div>
+    <br>
+
+   <textarea placeholder="Additional Comments"></textarea>
+   <input type="submit" id="submit">
+  </form>
+
+ <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
